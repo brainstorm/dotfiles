@@ -1,0 +1,23 @@
+# To be symlinked as both .gitignore and .hgignore
+
+# Cruft
+*.pyc
+.svn
+*~
+*.swp
+db/*.sqlite3
+log/*.log
+tags
+tmp/**/*
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
