@@ -1,6 +1,11 @@
+"" Vimrc based on http://amix.dk and http://unlogic.co.uk/posts/vim-python-ide.html
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Necessary for lots of cool vim things
+set nocompatible
+
 " Set utf8 as standard encoding
 set encoding=utf8
 
@@ -19,7 +24,7 @@ set autoread
 
 " Colors
 syntax enable
-set background=light
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
@@ -29,7 +34,7 @@ set hlsearch
 set incsearch 
 
 " Font setup, compatible with powerline
-set guifont=Source\ Code\ Pro\ for\ Powerline
+set guifont=Source\ Code\ Pro\ for\ Powerline:h16
 set laststatus=2
 
 " AutoCmds 
@@ -165,8 +170,13 @@ filetype plugin indent on
 Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'scrooloose/nerdtree'
-Bundle 'klen/python-mode'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'kien/ctrlp.vim'
+
+" Lang-specific Bundles
+Bundle 'klen/python-mode'
+Bundle 'saltstack/salt-vim'
