@@ -3,7 +3,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Necessary for lots of cool vim things
+" Necesary for lots of cool vim things
 set nocompatible
 
 " Set utf8 as standard encoding
@@ -40,9 +40,9 @@ set laststatus=2
 " AutoCmds 
 augroup vimrc_autocmds
     autocmd!
-    " highlight characters past column 80
+    " highlight characters past column 120 
     autocmd FileType python highlight Excess ctermbg=DarkGrey guibg=Black
-    autocmd FileType python match Excess /\%80v.*/
+    autocmd FileType python match Excess /\%120v.*/
     autocmd FileType python set nowrap
 augroup END
 
@@ -71,6 +71,9 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map leader key to ","
+let mapleader = ","
+
 " Treat long lines as break lines (useful when moving around in them)
 map j gj
 map k gk
@@ -145,6 +148,8 @@ let g:pymode_virtualenv = 1
 " Enable breakpoints plugin
 let g:pymode_breakpoint = 1
 let g:pymode_breakpoint_key = '<leader>b'
+" Set ipdb instead of default pdb
+let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()    # XXX BREAKPOINT'
 
 " syntax highlighting
 let g:pymode_syntax = 1
@@ -176,6 +181,10 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'kien/ctrlp.vim'
+
+" Code navigation
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-easytags' 
 
 " Lang-specific Bundles
 Bundle 'klen/python-mode'
