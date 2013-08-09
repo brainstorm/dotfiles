@@ -184,7 +184,8 @@ Bundle 'kien/ctrlp.vim'
 
 " Code navigation
 Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-easytags' 
+Bundle 'xolox/vim-easytags'
+Bundle 'mileszs/ack.vim'
 
 " Lang-specific Bundles
 Bundle 'klen/python-mode'

@@ -12,6 +12,11 @@ brew install ctags
 brew install lynx
 brew install node
 brew install pigz
+brew install ack
+
+# Local databases for testing
+brew install couchdb
+brew install mongodb
 
 # Install basic bioinformatics tools
 brew tap homebrew/science
