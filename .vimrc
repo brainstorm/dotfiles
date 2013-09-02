@@ -181,6 +181,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'kien/ctrlp.vim'
+Bundle 'danro/rename.vim'
 
 " Code navigation
 Bundle 'xolox/vim-misc'
