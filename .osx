@@ -35,3 +35,7 @@ defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 # Disable GPG signing by default on GPGMail
 defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault -bool NO
+
+# Timemachine compatible with SMB mounts
+defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1
+sudo tmutil disablelocal

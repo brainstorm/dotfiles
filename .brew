@@ -41,6 +41,7 @@ installcask macvim
 installcask miro-video-converter
 installcask the-unarchiver
 installcask virtualbox
+installcask vagrant
 installcask vlc
 
 # Heavy casks
