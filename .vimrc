@@ -182,6 +182,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'kien/ctrlp.vim'
 Bundle 'danro/rename.vim'
+Bundle 'Townk/vim-autoclose'
 
 " Code navigation
 Bundle 'xolox/vim-misc'
@@ -190,4 +191,3 @@ Bundle 'mileszs/ack.vim'
 
 " Lang-specific Bundles
 Bundle 'klen/python-mode'
-Bundle 'saltstack/salt-vim'

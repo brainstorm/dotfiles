@@ -10,6 +10,7 @@ brew upgrade
 brew install irods
 brew install wget
 brew install ctags
+brew install cmake
 brew install lynx
 brew install node
 brew install pigz
