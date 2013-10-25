@@ -8,6 +8,8 @@ brew upgrade
 
 # Install other useful binaries
 brew install irods
+brew install heroku-toolbelt
+brew install wireshark
 brew install wget
 brew install ctags
 brew install cmake
@@ -46,6 +48,7 @@ installcask virtualbox
 installcask vagrant
 installcask vlc
 installcask tunnelblick
+installcask wireshark
 
 # Heavy casks
 installcask libre-office
