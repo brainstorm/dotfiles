@@ -39,3 +39,8 @@ defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault
 # Timemachine compatible with SMB mounts
 defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1
 sudo tmutil disablelocal
+
+# Fonts for iTerm2
+defaults write com.googlecode.iterm2 "Normal Font" "Source Code Pro for Powerline"
+defaults write com.googlecode.iterm2 "Non Ascii Font" "Source Code Pro for Powerline"
+defaults write com.googlecode.iterm2 "Normal Font" "Source Code Pro for Powerline"

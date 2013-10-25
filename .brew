@@ -7,16 +7,18 @@ brew update
 brew upgrade
 
 # Install other useful binaries
-brew install git
+brew install irods
+brew install wget
 brew install ctags
 brew install lynx
 brew install node
 brew install pigz
 brew install ack
+brew install macvim --env-std --override-system-vim
 
 # Local databases for testing
 brew install couchdb
-brew install mongodb
+#brew install mongodb
 
 # Install basic bioinformatics tools
 brew tap homebrew/science
@@ -33,19 +35,19 @@ function installcask() {
 
 installcask adium
 installcask quicksilver
+installcask iterm2
 installcask skype
 installcask dropbox
 installcask google-chrome
 installcask iterm2
-installcask macvim
-installcask miro-video-converter
 installcask the-unarchiver
 installcask virtualbox
 installcask vagrant
 installcask vlc
+installcask tunnelblick
 
 # Heavy casks
-# installcask libre-office
+installcask libre-office
 
 # Remove outdated versions from the cellar
 brew cleanup
