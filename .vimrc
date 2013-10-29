@@ -23,9 +23,14 @@ filetype indent on
 set autoread
 
 " Colors
-syntax enable
-set background=dark
-let g:solarized_termcolors=256
+syntax on
+let g:solarized_termcolors = 256
+let g:solarized_termtrans = 1
+if has('gui_running')
+    set background=dark
+else
+    set background=dark
+endif
 colorscheme solarized
 
 " Highlight search results
@@ -167,6 +172,8 @@ let g:pymode_folding = 0
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
 " Map NerdTree to <F2>(+fn for Macs)
 map <F2> :NERDTreeToggle<CR>
+let g:easytags_updatetime_warn = 0
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Bundle packaging 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
