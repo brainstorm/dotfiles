@@ -8,6 +8,7 @@ brew upgrade
 
 # Install other useful binaries
 brew install irods
+brew install pwgen
 brew install heroku-toolbelt
 brew install wireshark
 brew install wget
@@ -39,6 +40,8 @@ function installcask() {
 installcask adium
 installcask quicksilver
 installcask iterm2
+installcask osxfuse
+installcask macfuse
 installcask skype
 installcask dropbox
 installcask google-chrome
@@ -49,6 +52,7 @@ installcask vagrant
 installcask vlc
 installcask tunnelblick
 installcask wireshark
+installcask calibre
 
 # Heavy casks
 installcask libre-office
