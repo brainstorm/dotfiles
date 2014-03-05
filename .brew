@@ -19,6 +19,7 @@ brew install node
 brew install pigz
 brew install ack
 brew install macvim --env-std --override-system-vim
+brew install gnupg
 
 # Local databases for testing
 brew install couchdb
