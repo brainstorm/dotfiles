@@ -101,7 +101,8 @@ set viminfo^=%
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-set expandtab
+" Not very friendly with third party OSS projects
+" set expandtab
 
 " Be smart when using tabs ;)
 set smarttab
@@ -189,12 +190,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'kien/ctrlp.vim'
 Bundle 'danro/rename.vim'
-Bundle 'Townk/vim-autoclose'
-
-" Code navigation
 Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-easytags'
 Bundle 'mileszs/ack.vim'
-
-" Lang-specific Bundles
 Bundle 'klen/python-mode'
+Bundle 'chase/vim-ansible-yaml'
