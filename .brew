@@ -9,6 +9,8 @@ brew upgrade
 # Install other useful binaries
 brew install irods
 brew install pwgen
+brew install docker
+brew install boot2docker
 brew install heroku-toolbelt
 brew install wireshark
 brew install wget
