@@ -166,11 +166,23 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 " Don't autofold code
 let g:pymode_folding = 0
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Ansible YAML editing
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+ 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Package specific settings 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " You Complete me
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+"let g:ycm_path_to_python_interpreter = '~/.anaconda/anaconda/bin/python'
+
+" Erlang
+autocmd BufRead,BufNewFile *.erl,*.es.*.hrl,*.yaws,*.xrl set expandtab
+au BufNewFile,BufRead *.erl,*.es,*.hrl,*.yaws,*.xrl setf erlang
+
 " Map NerdTree to <F2>(+fn for Macs)
 map <F2> :NERDTreeToggle<CR>
 let g:easytags_updatetime_warn = 0
@@ -188,9 +200,14 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'jmcantrell/vim-virtualenv'
-Bundle 'kien/ctrlp.vim'
+"Bundle 'kien/ctrlp.vim' <--- conflicts with YCM?
 Bundle 'danro/rename.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'mileszs/ack.vim'
 Bundle 'klen/python-mode'
 Bundle 'chase/vim-ansible-yaml'
+Bundle 'Raimondi/delimitMate'
+Bundle 'jimenezrick/vimerl'
+Bundle 'edkolev/erlang-motions.vim'
+Bundle 'codenothing/jsonlint'
+Bundle 'elzr/vim-json'
