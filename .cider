@@ -4,6 +4,7 @@
     ],
     "casks": [
         "dropbox",
+	"sourcetree",
         "firefox",
         "flash",
         "flux",
@@ -14,12 +15,15 @@
         "iterm2",
         "sublime-text",
         "transmission",
+	"hipchat,
+	"slack",
 	"adium",
 	"iterm2",
 	"skype",
 	"the-unarchiver",
 	"vlc",
 	"tunnelblick",
+	"xquartz",
 	"wireshark",
 	"calibre"
     ],
