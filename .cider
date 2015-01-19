@@ -1,0 +1,50 @@
+{
+    "after-scripts": [
+        "brew linkapps"
+    ],
+    "casks": [
+        "dropbox",
+        "firefox",
+        "flash",
+        "flux",
+        "github",
+        "google-chrome",
+        "google-hangouts",
+        "heroku-toolbelt",
+        "iterm2",
+        "sublime-text",
+        "transmission",
+	"adium",
+	"iterm2",
+	"skype",
+	"the-unarchiver",
+	"vlc",
+	"tunnelblick",
+	"wireshark",
+	"calibre"
+    ],
+    "formulas": [
+        "brew-cask",
+        "go",
+	"wget",
+	"cmake",
+	"node",
+	"pigz",
+	"pbzip2",
+	"ack",
+        "macvim --env-std --overwrite-system-vi",
+        "python",
+        "python3",
+        "xctool"
+    ],
+    "symlinks": {
+        "bash/.*": "~",
+        "bin/*": "~/bin/",
+        "git/.*": "~",
+        "sh/.*": "~",
+        "vim/.*": "~"
+    },
+    "taps": [
+        "caskroom/cask"
+    ]
+}
