@@ -29,7 +29,9 @@
 	"xquartz",
 	"wireshark",
 	"sequel",
+	"sqlworkbenchj",
 	"1password",
+	"rstudio",
 	"calibre",
 	"java",
 	"genymotion",
@@ -49,6 +51,8 @@
         "macvim --env-std --overwrite-system-vi",
         "python",
         "python3",
+		"nmap",
+		"lftp",
         "xctool"
     ],
     "symlinks": {
