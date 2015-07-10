@@ -30,13 +30,16 @@
 	"wireshark",
 	"sequel",
 	"sqlworkbenchj",
+	"kitematic",
 	"1password",
 	"rstudio",
 	"calibre",
 	"java",
 	"genymotion",
 	"eclipse-ide",
-	"android-studio"
+	"android-studio",
+	"spectacle",
+	"activator"
     ],
     "formulas": [
         "brew-cask",
@@ -53,7 +56,9 @@
         "python3",
 		"nmap",
 		"lftp",
-        "xctool"
+		"R",
+        "xctool",
+		"watch"
     ],
     "symlinks": {
         "bash/.*": "~",
@@ -64,5 +69,6 @@
     },
     "taps": [
         "caskroom/cask"
+		"science"
     ]
 }

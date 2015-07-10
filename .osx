@@ -45,3 +45,8 @@ sudo tmutil disablelocal
 defaults write com.googlecode.iterm2 "Normal Font" "Source Code Pro for Powerline"
 defaults write com.googlecode.iterm2 "Non Ascii Font" "Source Code Pro for Powerline"
 defaults write com.googlecode.iterm2 "Normal Font" "Source Code Pro for Powerline"
+
+# Rstudio hacks, being able to display R data frames
+
+defaults write org.R-project.R force.LANG C
+defaults write org.R-project.R force.LC_CTYPE C
