@@ -39,7 +39,10 @@
 	"eclipse-ide",
 	"android-studio",
 	"spectacle",
-	"activator"
+	"intellij-idea-ce",
+	"mactex",
+	"pandoc",
+	"pandoc-citeproc"
     ],
     "formulas": [
         "brew-cask",
@@ -58,7 +61,10 @@
 		"lftp",
 		"R",
         "xctool",
-		"watch"
+		"watch",
+		"activator",
+		"mosh",
+		"flocker"
     ],
     "symlinks": {
         "bash/.*": "~",
@@ -68,7 +74,8 @@
         "vim/.*": "~"
     },
     "taps": [
-        "caskroom/cask"
+        "caskroom/cask",
+		"ClusterHQ",
 		"science"
     ]
 }
