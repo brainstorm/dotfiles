@@ -14,8 +14,8 @@
 	"awscli",
     "iterm2",
 	"jq",
-    "sublime-text",
-	"pycharm",
+    "p4merge",
+	"atom",
     "transmission",
 	"hipchat,
 	"slack",
@@ -51,6 +51,7 @@
     "formulas": [
         "brew-cask",
 		"bash-completion",
+		"ssh-copy-id",
         "go",
 		"gawk",
 		"wget",
