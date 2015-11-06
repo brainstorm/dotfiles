@@ -1,23 +1,34 @@
-#!/bin/sh
+# Basic
 
-export ANSIBLE_HOSTS=$HOME/dev/incf_playbooks/hosts
-source $HOME/.csc-openstack.sh
+PATH="$PATH:~/bin"
 
-export ARCHFLAGS="-arch x86_64"
-export PATH="/usr/local/bin:$PATH:~/bin"
+# Bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    source $(brew --prefix)/etc/bash_completion
+fi
 
+# OSX
+alias removexattrs="chmod -RN . && xattr -c ."
 alias ls="ls -G"
-alias vim="/opt/homebrew-cask/Caskroom/macvim/*/*/mvim"
 
-# ruby virtualenv
-[[ -s "/Users/roman/.rvm/scripts/rvm" ]] && source "/Users/roman/.rvm/scripts/rvm"
+# AWS
+complete -C aws_completer aws
 
-# JAVA on MacOSX
-#export JAVA_HOME=`/usr/libexec/java_home`
+# Allow the current shell to have boot2docker pointer to a VM
+export DOCKER_TLS_VERIFY="1"
+export DOCKER_HOST="tcp://192.168.99.102:2376"
+export DOCKER_CERT_PATH="/Users/romanvg/.docker/machine/machines/dev"
+export DOCKER_MACHINE_NAME="dev"
 
-# Powershell for Bash
-function _update_ps1() {
-       export PS1="$(~/bin/powerline-shell/powerline-shell.py $?)"
-    }
+# Android studio requires this
+launchctl setenv STUDIO_JDK /Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk
 
-export PROMPT_COMMAND="_update_ps1"
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+# Docker
+alias docker_rm_all="docker ps -aq --no-trunc | xargs docker rm"
+
+# added by travis gem
+[ -f /Users/romanvg/.travis/travis.sh ] && source /Users/romanvg/.travis/travis.sh
