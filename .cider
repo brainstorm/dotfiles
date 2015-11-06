@@ -71,6 +71,7 @@
 		"watch",
 		"activator",
 		"mosh",
+		"tmux,
 		"flocker"
     ],
     "symlinks": {
