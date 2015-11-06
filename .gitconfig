@@ -1,0 +1,7 @@
+[user]
+	name = Roman Valls Guimera
+	email = brainstorm@nopcode.org
+[github]
+	user = brainstorm
+[core]
+	editor = atom --wait
