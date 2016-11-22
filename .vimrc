@@ -61,10 +61,6 @@ set tm=500
 " Show line numbers
 " set nu
 
-" Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -189,26 +185,5 @@ map <F2> :NERDTreeToggle<CR>
 let g:easytags_updatetime_warn = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Bundle packaging 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" The bundles you install will be listed here
-filetype plugin indent on
-Bundle 'gmarik/vundle'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Bundle 'scrooloose/nerdtree'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/syntastic'
-Bundle 'tpope/vim-fugitive'
-"Bundle 'altercation/vim-colors-solarized'
-Bundle 'jmcantrell/vim-virtualenv'
-"Bundle 'kien/ctrlp.vim' <--- conflicts with YCM?
-Bundle 'danro/rename.vim'
-Bundle 'xolox/vim-misc'
-Bundle 'mileszs/ack.vim'
-Bundle 'klen/python-mode'
-Bundle 'chase/vim-ansible-yaml'
-Bundle 'Raimondi/delimitMate'
-Bundle 'jimenezrick/vimerl'
-Bundle 'edkolev/erlang-motions.vim'
-Bundle 'codenothing/jsonlint'
-Bundle 'elzr/vim-json'
+" => Vim packages
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
