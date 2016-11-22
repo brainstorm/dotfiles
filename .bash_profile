@@ -1,4 +1,6 @@
-source ~/.profile
+if [ -f ~/.profile ]; then
+	source ~/.profile
+fi
 
 if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
@@ -10,5 +12,5 @@ export PATH="/Users/romanvg/.anaconda/bin:$PATH"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-source /Users/romanvg/.iterm2_shell_integration.bash
-eval "$(hub alias -s)"
+# added by Miniconda2 4.2.12 installer
+export PATH="/Users/romanvg/.miniconda2/bin:$PATH"
