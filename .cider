@@ -21,7 +21,8 @@
 		"intellij-idea",
 		"wireshark-chmodbpf",
 		"mactex",
-		"docker"
+		"docker",
+		"arduino"
 	],
 	"formulas": [
 		"wireshark",
