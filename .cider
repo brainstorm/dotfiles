@@ -3,10 +3,10 @@
 		"brew linkapps"
 	],
 	"casks": [
-		"github",
+		"github-desktop",
 		"google-chrome",
-		"heroku-toolbelt",
-		"awscli",
+		"heroku",
+		"aws-cli",
 		"iterm2",
 		"jq",
 		"atom",
@@ -24,12 +24,13 @@
 		"calibre",
 		"java",
 		"spectacle",
-		"intellij-idea-ce",
+		"intellij-idea",
 		"mactex",
-		"pandoc",
-		"pandoc-citeproc"
+		"android-platform-tools"
 	],
 	"formulas": [
+		"pandoc",
+		"pandoc-citeproc",
 		"bash-completion",
 		"ssh-copy-id",
 		"go",
@@ -43,13 +44,10 @@
 		"parallel",
 		"macvim --env-std --overwrite-system-vi",
 		"nmap",
-		"lftp",
-		"R",
-		"xctool",
 		"watch",
-		"activator",
 		"mosh",
-		"tmux"
+		"tmux",
+		"pass"
 	],
 	"symlinks": {
 		"bash/.*": "~",
