@@ -8,6 +8,7 @@
     ~/.vim: .vim
     ~/.vimrc: .vimrc
     ~/.tmux.conf: .tmux.conf
+    ~/.cider: .cider
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
