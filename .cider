@@ -7,8 +7,10 @@
 		"google-chrome",
 		"iterm2",
 		"atom",
+		"visual-studio-code",
 		"transmission",
 		"slack",
+		"telegram",
 		"adium",
 		"skype",
 		"webex-nbr-player",
@@ -48,6 +50,7 @@
 		"watch",
 		"mosh",
 		"tmux",
+		"ffmpeg",
 		"pass"
 	],
 	"symlinks": {
