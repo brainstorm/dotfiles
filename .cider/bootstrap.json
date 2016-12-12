@@ -51,7 +51,14 @@
 		"mosh",
 		"tmux",
 		"ffmpeg",
-		"pass"
+		"pass",
+		"gnu-sed --with-default-names",
+		"binutils",
+		"libelf",
+		"coreutils",
+		"help2man",
+		"libtool",
+		"automake"
 	],
 	"symlinks": {
 		"bash/.*": "~",
