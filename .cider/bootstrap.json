@@ -24,6 +24,9 @@
 		"wireshark-chmodbpf",
 		"mactex",
 		"docker",
+		"virtualbox",
+		"vagrant",
+		"kicad",
 		"arduino"
 	],
 	"formulas": [
@@ -55,10 +58,7 @@
 		"gnu-sed --with-default-names",
 		"binutils",
 		"libelf",
-		"coreutils",
-		"help2man",
-		"libtool",
-		"automake"
+		"coreutils"
 	],
 	"symlinks": {
 		"bash/.*": "~",
