@@ -7,14 +7,16 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 
-# Bash completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    source $(brew --prefix)/etc/bash_completion
-fi
+alias ls="ls --color"
 
 # OSX
-alias removexattrs="chmod -RN . && xattr -c ."
-alias ls="ls -G"
+#alias removexattrs="chmod -RN . && xattr -c ."
+#alias ls="ls -G"
+# Bash completion
+#if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#    source $(brew --prefix)/etc/bash_completion
+#fi
+
 
 # AWS
 complete -C aws_completer aws
@@ -27,14 +29,14 @@ export PATH=$PATH:$GOPATH/bin
 [ -f /Users/romanvg/.travis/travis.sh ] && source /Users/romanvg/.travis/travis.sh
 
 # linuxbrew
-export PATH="$HOME/.linuxbrew/bin:$PATH"
-export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-export CC=${CC:-`which gcc`} && export CXX=${CXX:-`which g++`}
+#export PATH="$HOME/.linuxbrew/bin:$PATH"
+#export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+#export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+#export CC=${CC:-`which gcc`} && export CXX=${CXX:-`which g++`}
 # Cannot be bothered to pass --env=inherit every time
-function brew {
-    ~/.linuxbrew/bin/brew "$@" --env=inherit;
-}
+#function brew {
+#    ~/.linuxbrew/bin/brew "$@" --env=inherit;
+#}
 
 # Go
 export GOPATH=$HOME/go
