@@ -4,4 +4,4 @@
 [github]
 	user = brainstorm
 [core]
-	editor = atom --wait
+	editor = vim

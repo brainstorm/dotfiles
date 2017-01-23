@@ -9,6 +9,10 @@ export HISTCONTROL=ignoredups
 
 alias ls="ls --color"
 
+if [ -f /etc/bash_completion ]; then
+    source /etc/bash_completion
+fi
+
 # OSX
 #alias removexattrs="chmod -RN . && xattr -c ."
 #alias ls="ls -G"
@@ -59,3 +63,6 @@ alias slurm_template='echo "#!/bin/bash
 #SBATCH -e %J.out
 #SBATCH --time=240:00:00
 " > slurm.sh'
+
+# added by Miniconda3 4.2.12 installer
+export PATH="/home/romanvg/.miniconda3/bin:$PATH"

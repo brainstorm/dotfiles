@@ -2,10 +2,10 @@
 
 - link:
     ~/.gitignore_global: .gitignore_global
+    ~/.gitconfig: .gitconfig
     ~/.condarc: .condarc
     ~/.bashrc: .bashrc
     ~/.bash_profile: .bash_profile
-    ~/.vim: .vim
     ~/.vimrc: .vimrc
     ~/.tmux.conf: .tmux.conf
     ~/.cider: .cider
