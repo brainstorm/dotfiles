@@ -1,6 +1,8 @@
 # Basic
 
-PATH="$PATH:~/bin"
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+export PATH="$PATH:~/bin"
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
@@ -52,6 +54,11 @@ alias dkd="docker run -d -P"
 alias dki="docker run -t -i -P"
 alias dco="docker-compose"
 alias dpa="docker ps -a"
+
+# Espressif toolchains for esp8266 and esp32
+export PATH=$PATH:$HOME/dev/espressif/crosstool-NG/builds/xtensa-esp32-elf/bin
+export PATH=$HOME/dev/espressif/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
+export IDF_PATH=~/dev/espressif/esp-idf
 
 # Slurm
 alias slurm_template='echo "#!/bin/bash
