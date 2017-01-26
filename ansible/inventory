@@ -1,6 +1,6 @@
 [hpc]
-spartan
-#raijin
+#spartan
+raijin ansible_user=rg3930
 
 [desktop]
 localhost

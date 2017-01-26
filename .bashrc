@@ -38,14 +38,14 @@ export PATH=$PATH:$GOPATH/bin
 [ -f /Users/romanvg/.travis/travis.sh ] && source /Users/romanvg/.travis/travis.sh
 
 # linuxbrew
-#export PATH="$HOME/.linuxbrew/bin:$PATH"
-#export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-#export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-#export CC=${CC:-`which gcc`} && export CXX=${CXX:-`which g++`}
+export PATH="$HOME/.linuxbrew/bin:$PATH"
+export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+export CC=${CC:-`which gcc`} && export CXX=${CXX:-`which g++`}
 # Cannot be bothered to pass --env=inherit every time
-#function brew {
-#    ~/.linuxbrew/bin/brew "$@" --env=inherit;
-#}
+function brew {
+    ~/.linuxbrew/bin/brew "$@" --env=inherit;
+}
 
 # Go
 export GOPATH=$HOME/go

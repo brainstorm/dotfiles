@@ -4,5 +4,5 @@
   become: no
   roles:
     #- robinandeer.miniconda
-    #- brainstorm.dotfiles
+    - brainstorm.dotfiles
     - dirn.homebrew
