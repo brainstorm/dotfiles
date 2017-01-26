@@ -5,6 +5,10 @@ create_default_packages:
   - ipython
   - ipdb
   - jupyter
+  - notebook
+  - saws
+  - pylint
+  - pyserial
 
 # implies always using the --yes option whenever asked to proceed
 always_yes: True

@@ -8,10 +8,11 @@
     - "tmp"
     - "bin"
 
-- name: brainstorm dotfiles
+- name: git clone brainstorm dotfiles
   git:
     repo: https://github.com/brainstorm/dotfiles
     dest: ~/dev/dotfiles
+    depth: 1
 
 - name: setup dotfiles themselves at $HOME
   command: ~/dev/dotfiles/install

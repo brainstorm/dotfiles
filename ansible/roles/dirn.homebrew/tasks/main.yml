@@ -18,7 +18,7 @@
   when: linuxbrew_installed.stat.exists != True
 
 - name: Install
-  command: test -x ~/tmp/install
+  command: ~/tmp/install
   when: linuxbrew_installed.stat.exists != True
 
 - name: Update
