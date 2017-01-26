@@ -11,5 +11,5 @@
 
 - name: Install Homebrew Cask apps with sudo
   homebrew_cask: name={{ item }} state=present
-  sudo: yes
+  become: yes
   with_items: homebrew_casks_with_sudo

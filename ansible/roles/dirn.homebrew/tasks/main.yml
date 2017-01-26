@@ -7,8 +7,19 @@
   set_fact:
     homebrew_repo_name: "{{ 'homebrew' if ansible_os_family == 'Darwin' else 'linuxbrew' }}"
 
+- stat: path="~/{{ homebrew_repo_name }}"
+  register: linuxbrew_installed
+
+- name: Fetch
+  get_url: 
+      url: https://raw.githubusercontent.com/Linuxbrew/install/master/install
+      dest: ~/tmp/install
+      mode: 0700
+  when: linuxbrew_installed.stat.exists != True
+
 - name: Install
-  shell: creates={{ homebrew_root }}/bin/brew curl -fsSL https://github.com/Homebrew/{{ homebrew_repo_name }}/tarball/master | tar xz --strip 1 -C {{ homebrew_root }}
+  command: test -x ~/tmp/install
+  when: linuxbrew_installed.stat.exists != True
 
 - name: Update
   homebrew: update_homebrew=yes
@@ -20,7 +31,7 @@
 
 - name: Install libraries
   homebrew: name={{ item }} state=present
-  with_items: homebrew_libraries
+  with_items: "{{ homebrew_libraries }}"
 
 - include: casks.yml
   when: homebrew_casks or homebrew_casks_with_sudo

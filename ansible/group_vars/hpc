@@ -13,3 +13,4 @@ miniconda_environments:
 # LinuxBrew
 
 homebrew_root: '~/.linuxbrew'
+homebrew_libraries: ['mosh', 'tmux']
