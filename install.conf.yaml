@@ -4,9 +4,13 @@
     ~/.gitignore_global: .gitignore_global
     ~/.gitconfig: .gitconfig
     ~/.condarc: .condarc
+       force: true
     ~/.bashrc: .bashrc
+       force: true
     ~/.bash_profile: .bash_profile
+       force: true
     ~/.vimrc: .vimrc
+       force: true
     ~/.tmux.conf: .tmux.conf
     ~/.cider: .cider
 

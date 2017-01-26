@@ -1,0 +1,17 @@
+---
+- name: home skel dirs
+  file:
+    path: "~/{{ item }}"
+    state: directory
+  with_items:
+    - "dev"
+    - "tmp"
+    - "bin"
+
+- name: brainstorm dotfiles
+  git:
+    repo: https://github.com/brainstorm/dotfiles
+    dest: ~/dev/dotfiles
+
+- name: setup dotfiles themselves at $HOME
+  command: ~/dev/dotfiles/install

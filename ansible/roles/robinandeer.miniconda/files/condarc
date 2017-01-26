@@ -3,8 +3,6 @@ create_default_packages:
   - python
   - pip
   - ipython
-  - ipdb
-  - jupyter
 
 # implies always using the --yes option whenever asked to proceed
 always_yes: True

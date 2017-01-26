@@ -47,6 +47,7 @@ export PATH=$PATH:$GOPATH/bin
 # Go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/lib/go-1.7/bin
 
 # Docker
 alias drma="docker ps -aq --no-trunc | xargs docker rm"

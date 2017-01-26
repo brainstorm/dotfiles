@@ -1,0 +1,15 @@
+---
+miniconda_home: '~/.miniconda'
+miniconda_modify_bashrc: yes
+miniconda_add_condarc: no
+miniconda_environments:
+    - name: py2
+      python_version: 2.7
+      pkgs: pip ipython ipdb
+    - name: py3
+      python_version: 3
+      pkgs: pip ipython ipdb
+
+# LinuxBrew
+
+homebrew_root: '~/.linuxbrew'

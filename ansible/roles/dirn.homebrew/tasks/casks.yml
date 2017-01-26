@@ -1,0 +1,15 @@
+---
+- name: Install Homebrew tap for Homebrew Cask
+  homebrew_tap: name=caskroom/cask state=present
+
+- name: Install Homebrew Cask
+  homebrew: name=brew-cask state=present
+
+- name: Install Homebrew Cask apps
+  homebrew_cask: name={{ item }} state=present
+  with_items: homebrew_casks
+
+- name: Install Homebrew Cask apps with sudo
+  homebrew_cask: name={{ item }} state=present
+  sudo: yes
+  with_items: homebrew_casks_with_sudo

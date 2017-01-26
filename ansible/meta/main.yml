@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Roman Valls Guimera
+  description: New academic HPC cluster, new life 
+  company: nopcode
+  license: GPLv3
+  min_ansible_version: 1.6
+  platforms:
+    - name: Ubuntu
+	- name: Scientific Linux
+	- name: CentOS
+  categories:
+  - monitoring
+  - networking
+  - system
+dependencies: []

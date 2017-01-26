@@ -99,7 +99,7 @@ set viminfo^=%
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
 " Not very friendly with third party OSS projects
-" set expandtab
+set expandtab
 
 " Be smart when using tabs ;)
 set smarttab

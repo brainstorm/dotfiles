@@ -1,0 +1,15 @@
+---
+# Where to install Homebrew
+homebrew_root: /usr/local
+
+# Which Homebrew libraries to install
+homebrew_libraries: []
+# Which Homebrew casks to install
+homebrew_casks: []
+# Some casks require sudo
+homebrew_casks_with_sudo: []
+
+# Whether to keep Homebrew up-to-date
+homebrew_update: true
+# Whether to keep Homebrew libraries up-to-date
+homebrew_upgrade_all: true
