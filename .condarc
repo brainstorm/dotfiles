@@ -6,7 +6,6 @@ create_default_packages:
   - ipdb
   - jupyter
   - notebook
-  - saws
   - pylint
   - pyserial
 

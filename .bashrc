@@ -75,5 +75,12 @@ alias slurm_template='echo "#!/bin/bash
 #SBATCH --time=240:00:00
 " > slurm.sh'
 
+# KiCad/SKidl
+export KISYSMOD="/usr/share/kicad/modules"
+
+# Android
+export USE_CCACHE=1
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx2G"
+
 # added by Miniconda3 4.2.12 installer
 export PATH="/home/romanvg/.miniconda3/bin:$PATH"

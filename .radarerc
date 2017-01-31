@@ -1,0 +1,5 @@
+eco solarized
+e asm.capitalize=true
+e asm.tabs=5
+# e asm.bytes=0
+# e cfg.fortunes.tts=true
