@@ -58,7 +58,8 @@
 		"gnu-sed --with-default-names",
 		"binutils",
 		"libelf",
-		"coreutils"
+		"coreutils",
+		"dockutil"
 	],
 	"symlinks": {
 		"bash/.*": "~",

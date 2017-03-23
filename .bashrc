@@ -1,5 +1,13 @@
 # Basic
 
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='osx'
+fi
+
 #export LANG=C.UTF-8
 #export LC_ALL=C.UTF-8
 export LANG="en_US.UTF-8"
@@ -12,20 +20,18 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 
-alias ls="ls --color"
-
-if [ -f /etc/bash_completion ]; then
-    source /etc/bash_completion
+if [[ "$platform" == 'osx' ]]; then
+	alias ls="ls -G"
+	alias removexattrs="chmod -RN . && xattr -c ."
+	if [ -f $(brew --prefix)/etc/bash_completion ]; then
+		source $(brew --prefix)/etc/bash_completion
+	fi
+else
+	alias ls="ls --color"
+	if [ -f /etc/bash_completion ]; then
+    	source /etc/bash_completion
+	fi
 fi
-
-# OSX
-#alias removexattrs="chmod -RN . && xattr -c ."
-#alias ls="ls -G"
-# Bash completion
-#if [ -f $(brew --prefix)/etc/bash_completion ]; then
-#    source $(brew --prefix)/etc/bash_completion
-#fi
-
 
 # AWS
 complete -C aws_completer aws
@@ -37,15 +43,18 @@ export PATH=$PATH:$GOPATH/bin
 # added by travis gem
 [ -f /Users/romanvg/.travis/travis.sh ] && source /Users/romanvg/.travis/travis.sh
 
+
 # linuxbrew
-export PATH="$HOME/.linuxbrew/bin:$PATH"
-export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
-export CC=${CC:-`which gcc`} && export CXX=${CXX:-`which g++`}
-# Cannot be bothered to pass --env=inherit every time
-function brew {
-    ~/.linuxbrew/bin/brew "$@" --env=inherit;
-}
+if [[ "$platform" == 'linux' ]]; then
+	export PATH="$HOME/.linuxbrew/bin:$PATH"
+	export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
+	export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
+	export CC=${CC:-`which gcc`} && export CXX=${CXX:-`which g++`}
+	# Cannot be bothered to pass --env=inherit every time
+	function brew {
+		~/.linuxbrew/bin/brew "$@" --env=inherit;
+	}
+fi
 
 # Go
 export GOPATH=$HOME/go
