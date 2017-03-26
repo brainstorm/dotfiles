@@ -27,7 +27,9 @@
 		"virtualbox",
 		"vagrant",
 		"kicad",
-		"arduino"
+		"arduino",
+		"stremio",
+		"airflow"
 	],
 	"formulas": [
 		"wireshark",
