@@ -61,17 +61,24 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/lib/go-1.7/bin
 
-# Docker
+# Docker & Kubernetes
 alias drma="docker ps -aq --no-trunc | xargs docker rm"
 alias dkd="docker run -d -P"
 alias dki="docker run -t -i -P"
 alias dco="docker-compose"
 alias dpa="docker ps -a"
 
+source <(kubectl completion bash)
+source <(kompose completion bash)
+
+## Kops for kubernetes clusters
+export KOPS_STATE_STORE="s3://umccr-kubernetes-state-store"
+
 # Espressif toolchains for esp8266 and esp32
 export PATH=$PATH:$HOME/dev/espressif/crosstool-NG/builds/xtensa-esp32-elf/bin
 export PATH=$HOME/dev/espressif/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 export IDF_PATH=~/dev/espressif/esp-idf
+export ESP_ROOT=~/esp8266/esp-open-sdk
 
 # Slurm
 alias slurm_template='echo "#!/bin/bash
@@ -89,7 +96,10 @@ export KISYSMOD="/usr/share/kicad/modules"
 
 # Android
 export USE_CCACHE=1
-export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx2G"
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G"
 
 # added by Miniconda3 4.2.12 installer
 export PATH="/home/romanvg/.miniconda3/bin:$PATH"
+
+# default python env 2.7.x
+source activate py2
