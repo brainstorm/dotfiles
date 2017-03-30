@@ -99,7 +99,7 @@ export USE_CCACHE=1
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G"
 
 # added by Miniconda3 4.2.12 installer
-export PATH="/home/romanvg/.miniconda3/bin:$PATH"
+export PATH="$HOME/.miniconda/bin:$PATH"
 
 # default python env 2.7.x
 source activate py2
