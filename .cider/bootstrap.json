@@ -63,6 +63,8 @@
 		"coreutils",
 		"dockutil",
 		"kubectl",
+		"kops",
+		"amazon-ecs-cli",
 		"kompose"
 	],
 	"symlinks": {
