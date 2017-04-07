@@ -45,6 +45,8 @@
 		"gawk",
 		"wget",
 		"cmake",
+		"gperftools",
+		"help2man",
 		"node",
 		"pigz",
 		"pbzip2",
