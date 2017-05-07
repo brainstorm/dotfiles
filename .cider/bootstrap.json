@@ -57,6 +57,7 @@
 		"watch",
 		"mosh",
 		"tmux",
+		"reattach-to-user-namespace",
 		"ffmpeg",
 		"pass",
 		"gnu-sed --with-default-names",
