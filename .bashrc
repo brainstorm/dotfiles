@@ -103,3 +103,11 @@ export PATH="$HOME/.miniconda/bin:$PATH"
 
 # default python env 2.7.x
 source activate py2
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# Arvados
+
+export ARVADOS_API_HOST="workbencharvados.duckdns.org"
+export ARVADOS_API_TOKEN="2cos4vr9s2elarhodbu2ifrmx8xl87vi7y2fvfu48hd67h4qhe"

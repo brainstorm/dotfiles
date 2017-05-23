@@ -68,7 +68,8 @@
 		"kubectl",
 		"kops",
 		"amazon-ecs-cli",
-		"kompose"
+		"kompose",
+		"git-town"
 	],
 	"symlinks": {
 		"bash/.*": "~",
