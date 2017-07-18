@@ -69,7 +69,9 @@
 		"kops",
 		"amazon-ecs-cli",
 		"kompose",
-		"git-town"
+		"MisterTea/et/et",
+		"git-town",
+		"graphviz"
 	],
 	"symlinks": {
 		"bash/.*": "~",

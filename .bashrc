@@ -79,6 +79,7 @@ export PATH=$PATH:$HOME/dev/espressif/crosstool-NG/builds/xtensa-esp32-elf/bin
 export PATH=$HOME/dev/espressif/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 export IDF_PATH=~/dev/espressif/esp-idf
 export ESP_ROOT=~/esp8266/esp-open-sdk
+export ESPBAUD=921600
 
 # Slurm
 alias slurm_template='echo "#!/bin/bash
