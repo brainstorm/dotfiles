@@ -8,11 +8,12 @@ create_default_packages:
   - notebook
   - pylint
   - pyserial
+  - git+https://github.com/bioconda/bioconda-utils.git
 
 # implies always using the --yes option whenever asked to proceed
-always_yes: True
+always_yes: true
 
 channels:
-  - defaults
   - bioconda
   - conda-forge
+  - defaults
