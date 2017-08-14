@@ -29,7 +29,9 @@
 		"freecad",
 		"arduino",
 		"stremio",
-		"airflow"
+		"airflow",
+		"bankid",
+		"soundflower"
 	],
 	"formulas": [
 		"wireshark",
@@ -70,7 +72,8 @@
 		"kompose",
 		"MisterTea/et/et",
 		"git-town",
-		"graphviz"
+		"graphviz",
+		"htop"
 	],
 	"symlinks": {
 		"bash/.*": "~",
