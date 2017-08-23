@@ -31,9 +31,13 @@
 		"stremio",
 		"airflow",
 		"bankid",
-		"soundflower"
+		"xquartz",
+		"inkscape",
+		"gimp"
 	],
 	"formulas": [
+		"automake",
+		"xz",
 		"wireshark",
 		"jq",
 		"awscli",
