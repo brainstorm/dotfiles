@@ -1,5 +1,9 @@
+e asm.describe=true
+e scr.utf8=true
+e asm.midflags=true
+e asm.emu=true
+e asm.emustr=true
+e io.va=true
+e bin.dbginfo=true
 eco solarized
-e asm.capitalize=true
-e asm.tabs=5
-# e asm.bytes=0
-# e cfg.fortunes.tts=true
+aeim ; Analyze ESIL Initialize Memory

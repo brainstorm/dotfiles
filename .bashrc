@@ -106,3 +106,7 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G
 export PATH="$PATH:$HOME/.rvm/bin"
 #export PATH="$HOME/.jenv/bin:$PATH"
 #eval "$(jenv init -)"
+
+# Radare
+
+export R2PM_DBDIR="$HOME/.r2pm"
