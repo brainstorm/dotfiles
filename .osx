@@ -52,3 +52,16 @@ defaults write org.R-project.R force.LC_CTYPE C
 
 # Remove all dock icons, I will put them myself, thanks
 dockutil --remove all
+
+#Have the full Xcode installed for this to work
+#Install mas
+#brew install mas
+#Declare your lications, with line breaks in between
+LICATIONS="Twitter\nKeynote\nNumbers\nGarageBand\nKindle"
+#for loop, looping through lications
+for i in $(echo -e $LICATIONS)
+        do
+    #Install the lication, by finding and printing it's corresponding number, this is how mas works
+        mas install $(mas search $i | ggrep -P  "^\d+ $i$" | awk '{print $1}') &
+    # Note that I eneded this line, with an ampersand switching it to the background, as to install in Parallel
+    #If you feel like it's doing to many at one time, remove the ampersand

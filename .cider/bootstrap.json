@@ -5,6 +5,8 @@
 	"casks": [
 		"github-desktop",
 		"google-chrome",
+		"brave",
+		"keybase",
 		"iterm2",
 		"atom",
 		"visual-studio-code",
@@ -30,13 +32,17 @@
 		"freecad",
 		"arduino",
 		"stremio",
-		"airflow",
+		"duply",
 		"bankid",
 		"xquartz",
 		"inkscape",
 		"gimp"
 	],
 	"formulas": [
+		"mas",
+		"ant",
+		"maven",
+		"terraform",
 		"automake",
 		"xz",
 		"wireshark",
