@@ -36,7 +36,10 @@
 		"bankid",
 		"xquartz",
 		"inkscape",
-		"gimp"
+		"signal",
+		"gimp",
+		"steam",
+		"osxfuse"
 	],
 	"formulas": [
 		"mas",

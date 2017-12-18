@@ -1,9 +1,19 @@
 [user]
-	name = Roman Valls Guimera
-	email = brainstorm@nopcode.org
+name = Roman Valls Guimera
+email = brainstorm@nopcode.org
 [github]
-	user = brainstorm
+user = brainstorm
 [core]
-	editor = vim
+editor = vim
 [color]
-	ui = auto
+ui = auto
+[filter "lfs"]
+required = true
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+[alias]
+# the acronym stands for "subtree add"
+sta = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
+# the acronym stands for "subtree update"
+stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"

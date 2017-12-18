@@ -74,8 +74,8 @@ source <(kompose completion bash)
 ## Kops for kubernetes clusters
 export KOPS_STATE_STORE="s3://umccr-kubernetes-state-store"
 
-# Espressif toolchains for esp8266 and esp32
-export PATH=$PATH:$HOME/dev/espressif/crosstool-NG/builds/xtensa-esp32-elf/bin
+# Espressif toolchains for esp8266 and esp32 and Mongoose-OS
+export PATH=$PATH:$HOME/dev/espressif/crosstool-NG/builds/xtensa-esp32-elf/bin:~/.mos/bin
 export PATH=$HOME/dev/espressif/esp-open-sdk/xtensa-lx106-elf/bin:$PATH
 export IDF_PATH=~/dev/espressif/esp-idf
 export ESP_ROOT=~/esp8266/esp-open-sdk
@@ -110,3 +110,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Radare
 
 export R2PM_DBDIR="$HOME/.r2pm"
+PATH="$PATH:/Users/romanvg/.mos/bin"
