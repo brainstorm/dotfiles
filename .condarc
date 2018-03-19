@@ -10,6 +10,6 @@ create_default_packages:
 always_yes: true
 
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
   - defaults

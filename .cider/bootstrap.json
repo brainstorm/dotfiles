@@ -42,6 +42,7 @@
 		"osxfuse"
 	],
 	"formulas": [
+		"r",
 		"pv",
 		"mas",
 		"ant",
@@ -89,7 +90,9 @@
 		"git-town",
 		"graphviz",
 		"htop",
-		"youtube-dl"
+		"youtube-dl",
+		"heimdall-suite",
+		"binwalk"
 	],
 	"symlinks": {
 		"bash/.*": "~",
