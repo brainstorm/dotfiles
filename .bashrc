@@ -35,6 +35,13 @@ fi
 
 # AWS
 complete -C aws_completer aws
+source $(which assume-role)
+
+function aws_account_info {
+  [ "$AWS_ACCOUNT_NAME" ] && [ "$AWS_ACCOUNT_ROLE" ] && echo -n "aws:($AWS_ACCOUNT_NAME:$AWS_ACCOUNT_ROLE) "
+}
+
+PROMPT_COMMAND='aws_account_info'
 
 # Go
 export GOPATH=$HOME/go
@@ -42,7 +49,6 @@ export PATH=$PATH:$GOPATH/bin
 
 # added by travis gem
 [ -f /Users/romanvg/.travis/travis.sh ] && source /Users/romanvg/.travis/travis.sh
-
 
 # linuxbrew
 if [[ "$platform" == 'linux' ]]; then
@@ -81,6 +87,8 @@ export IDF_PATH=~/dev/espressif/esp-idf
 export ESP_ROOT=~/esp8266/esp-open-sdk
 export ESPBAUD=921600
 
+export AMPY_PORT=/dev/cu.usbserial-FTYKHBJT
+
 # Slurm
 alias slurm_template='echo "#!/bin/bash
 
@@ -103,7 +111,6 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G
 # source activate py2
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 #export PATH="$HOME/.jenv/bin:$PATH"
 #eval "$(jenv init -)"
 
@@ -111,3 +118,15 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 export R2PM_DBDIR="$HOME/.r2pm"
 PATH="$PATH:/Users/romanvg/.mos/bin"
+
+# NodeJS
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
