@@ -39,7 +39,8 @@
 		"signal",
 		"gimp",
 		"steam",
-		"osxfuse"
+		"osxfuse",
+		"qtox"
 	],
 	"formulas": [
 		"r",
@@ -91,7 +92,10 @@
 		"graphviz",
 		"htop",
 		"youtube-dl",
-		"assume-role"
+		"assume-role",
+		"mysql",
+		"avra",
+		"packer"
 
 	],
 	"symlinks": {

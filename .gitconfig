@@ -17,3 +17,5 @@ process = git-lfs filter-process
 sta = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
 # the acronym stands for "subtree update"
 stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
+[diff]
+	submodule = log
