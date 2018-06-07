@@ -5,17 +5,13 @@
 	"casks": [
 		"github-desktop",
 		"google-chrome",
-		"brave",
-		"keybase",
 		"iterm2",
-		"atom",
 		"visual-studio-code",
 		"transmission",
 		"slack",
 		"telegram",
 		"adium",
 		"skype",
-		"webex-nbr-player",
 		"the-unarchiver",
 		"vlc",
 		"rstudio",
@@ -38,9 +34,8 @@
 		"inkscape",
 		"signal",
 		"gimp",
-		"steam",
-		"osxfuse",
-		"qtox"
+		"vault",
+		"sshuttle"
 	],
 	"formulas": [
 		"r",
@@ -88,14 +83,15 @@
 		"amazon-ecs-cli",
 		"kompose",
 		"MisterTea/et/et",
-		"git-town",
+		"git",
 		"graphviz",
 		"htop",
 		"youtube-dl",
 		"assume-role",
 		"mysql",
 		"avra",
-		"packer"
+		"packer",
+		"rclone"
 
 	],
 	"symlinks": {
