@@ -49,6 +49,7 @@
 		"wireshark",
 		"jq",
 		"awscli",
+		"aws-cfn-tools",
 		"heroku",
 		"pandoc",
 		"pandoc-citeproc",
