@@ -3,7 +3,9 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"etcher",
 		"github-desktop",
+		"handbrake",
 		"google-chrome",
 		"iterm2",
 		"visual-studio-code",
@@ -24,6 +26,7 @@
 		"virtualbox",
 		"vagrant",
 		"kicad",
+		"saleae-logic",
 		"aliwangwang",
 		"freecad",
 		"arduino",
@@ -85,6 +88,7 @@
 		"kompose",
 		"MisterTea/et/et",
 		"git",
+		"git-secrets",
 		"graphviz",
 		"htop",
 		"youtube-dl",
@@ -103,6 +107,7 @@
 		"vim/.*": "~"
 	}
 	"taps": {
-		"coinbase/assume-role"
+		"coinbase/assume-role",
+		"homebrew-cask-drivers"
 	}
 }
