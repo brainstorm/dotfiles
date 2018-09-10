@@ -5,6 +5,9 @@
     ~/.gitconfig: .gitconfig
     ~/.tmux.conf: .tmux.conf
     ~/.cider: .cider
+    ~/.jupyter:
+      force: true
+      path: .jupyter
     ~/.condarc:
       force: true
       path: .condarc
