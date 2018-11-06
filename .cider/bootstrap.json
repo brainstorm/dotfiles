@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"google-cloud-sdk",
 		"etcher",
 		"github-desktop",
 		"handbrake",
@@ -50,6 +51,7 @@
 		"automake",
 		"xz",
 		"wireshark",
+		"bettercap",
 		"jq",
 		"awscli",
 		"aws-cfn-tools",
