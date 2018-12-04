@@ -82,6 +82,7 @@
 		"gnu-sed --with-default-names",
 		"binutils",
 		"libelf",
+		"bfg",
 		"coreutils",
 		"dockutil",
 		"kubectl",
