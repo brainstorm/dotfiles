@@ -20,9 +20,9 @@
     ~/.vimrc:
       force: true
       path: .vimrc
-    ~/.radarerc:
+    ~/.radare2rc:
       force: true
-      path: .radarerc
+      path: .radare2rc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

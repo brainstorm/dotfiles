@@ -1,17 +1,12 @@
 e asm.describe=true
-e asm.midflags=true
 e asm.emu=true
-e asm.emustr=true
-e asm.varsum=true
 e asm.shortcut=0
-e asm.cmt.col=55
 e io.va=true
 e bin.dbginfo=true
 e cmd.pdc=r2dec
-e co solarized
-e co ogray
-e co bold
+e bin.maxstrbuf=0x00a7fd1c
 e scr.utf8.curvy=true
 e scr.utf8=true
+e prj.git=true
+e anal.bb.maxsize=4096
 aeim ; Analyze ESIL Initialize Memory
-aaa
