@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"yujitach-menumeters",
 		"google-cloud-sdk",
 		"etcher",
 		"github-desktop",
@@ -79,10 +80,11 @@
 		"reattach-to-user-namespace",
 		"ffmpeg",
 		"pass",
+		"pass-otp",
 		"gnu-sed --with-default-names",
-		"binutils",
 		"libelf",
 		"bfg",
+		"hashcat",
 		"coreutils",
 		"dockutil",
 		"kubectl",
