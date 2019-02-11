@@ -3,6 +3,10 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"skitch",
+		"postman",
+		"metasploit",
+		"burp-suite",
 		"yujitach-menumeters",
 		"google-cloud-sdk",
 		"etcher",
