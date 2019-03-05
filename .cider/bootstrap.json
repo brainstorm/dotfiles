@@ -47,6 +47,8 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"rustup-init",
+		"openapi-generator",
 		"r",
 		"pv",
 		"mas",
@@ -105,7 +107,8 @@
 		"mysql",
 		"avra",
 		"packer",
-		"rclone"
+		"rclone",
+		"filosottile/musl-cross/musl-cross"
 
 	],
 	"symlinks": {
@@ -115,7 +118,7 @@
 		"sh/.*": "~",
 		"vim/.*": "~"
 	}
-	"taps": {
+    "taps": {
 		"coinbase/assume-role",
 		"homebrew-cask-drivers"
 	}
