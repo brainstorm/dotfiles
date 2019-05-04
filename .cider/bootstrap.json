@@ -3,6 +3,8 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"miniconda",
+		"ghidra",
 		"skitch",
 		"postman",
 		"metasploit",
@@ -10,11 +12,10 @@
 		"yujitach-menumeters",
 		"google-cloud-sdk",
 		"etcher",
-		"github-desktop",
 		"handbrake",
 		"google-chrome",
 		"iterm2",
-		"visual-studio-code",
+		"visual-studio-code-insiders",
 		"transmission",
 		"slack",
 		"telegram",
@@ -99,7 +100,8 @@
 		"kompose",
 		"MisterTea/et/et",
 		"git",
-		"git-secrets",
+		"gitkraken",
+		"parquet-tools",
 		"graphviz",
 		"htop",
 		"youtube-dl",
@@ -118,8 +120,7 @@
 		"sh/.*": "~",
 		"vim/.*": "~"
 	}
-    "taps": {
-		"coinbase/assume-role",
+	"taps": {
 		"homebrew-cask-drivers"
 	}
 }

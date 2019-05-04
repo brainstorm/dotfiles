@@ -3,6 +3,8 @@ create_default_packages:
   - python
   - pip
   - ipython
+  - jupyter
+  - jupytext
   - ipdb
 
 # implies always using the --yes option whenever asked to proceed
@@ -11,5 +13,4 @@ always_yes: true
 channels:
   - conda-forge
   - bioconda
-  - r
   - defaults
