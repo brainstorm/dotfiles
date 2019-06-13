@@ -5,6 +5,8 @@
 	"casks": [
 		"miniconda",
 		"ghidra",
+		"jadx",
+		"goreleaser",
 		"skitch",
 		"postman",
 		"metasploit",
@@ -100,6 +102,7 @@
 		"kompose",
 		"MisterTea/et/et",
 		"git",
+		"git-lfs",
 		"gitkraken",
 		"parquet-tools",
 		"graphviz",
