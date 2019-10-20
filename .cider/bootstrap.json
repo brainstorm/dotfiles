@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"coolterm",
 		"miniconda",
 		"ghidra",
 		"jadx",
@@ -13,7 +14,7 @@
 		"burp-suite",
 		"yujitach-menumeters",
 		"google-cloud-sdk",
-		"etcher",
+		"balenaetcher",
 		"handbrake",
 		"google-chrome",
 		"iterm2",
@@ -24,7 +25,7 @@
 		"adium",
 		"skype",
 		"the-unarchiver",
-		"vlc",
+		"vlc-nightly",
 		"rstudio",
 		"calibre",
 		"java",
@@ -51,6 +52,7 @@
 	],
 	"formulas": [
 		"rustup-init",
+		"saw",
 		"openapi-generator",
 		"r",
 		"pv",
@@ -81,7 +83,7 @@
 		"pbzip2",
 		"ack",
 		"parallel",
-		"macvim --env-std --overwrite-system-vi",
+		"macvim",
 		"nmap",
 		"watch",
 		"mosh",
@@ -113,8 +115,9 @@
 		"avra",
 		"packer",
 		"rclone",
-		"filosottile/musl-cross/musl-cross"
-
+		"filosottile/musl-cross/musl-cross",
+		"balena-cli",
+		"unshield"
 	],
 	"symlinks": {
 		"bash/.*": "~",
@@ -125,5 +128,6 @@
 	}
 	"taps": {
 		"homebrew-cask-drivers"
+		"TylerBrock"
 	}
 }
