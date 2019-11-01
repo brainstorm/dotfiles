@@ -3,6 +3,8 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"segger-jlink",
+		"nordic-nrf-command-line-tools",
 		"coolterm",
 		"miniconda",
 		"ghidra",
@@ -51,6 +53,8 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"mynewt-newt",
+		"arm-none-eabi-gcc",
 		"rustup-init",
 		"saw",
 		"openapi-generator",
@@ -127,7 +131,8 @@
 		"vim/.*": "~"
 	}
 	"taps": {
-		"homebrew-cask-drivers"
-		"TylerBrock"
+		"homebrew-cask-drivers",
+		"TylerBrock",
+		"ArmMbed/homebrew-formulae"
 	}
 }
