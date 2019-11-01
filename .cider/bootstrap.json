@@ -4,6 +4,7 @@
 	],
 	"casks": [
 		"segger-jlink",
+		"nordic-nrf-connect",
 		"nordic-nrf-command-line-tools",
 		"coolterm",
 		"miniconda",
