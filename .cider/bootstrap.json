@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"squashfs",
 		"segger-jlink",
 		"nordic-nrf-connect",
 		"nordic-nrf-command-line-tools",
