@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"db-browser-for-sqlite",
 		"squashfs",
 		"segger-jlink",
 		"nordic-nrf-connect",
