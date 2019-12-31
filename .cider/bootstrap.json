@@ -36,7 +36,7 @@
 		"java",
 		"wireshark-chmodbpf",
 		"android-platform-tools",
-		"mactex",
+		"basictex",
 		"docker",
 		"virtualbox",
 		"vagrant",
@@ -56,6 +56,8 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"dfu-util",
+		"stlink",
 		"mynewt-newt",
 		"arm-none-eabi-gcc",
 		"rustup-init",
@@ -124,7 +126,8 @@
 		"rclone",
 		"filosottile/musl-cross/musl-cross",
 		"balena-cli",
-		"unshield"
+		"unshield",
+		"riot"
 	],
 	"symlinks": {
 		"bash/.*": "~",
