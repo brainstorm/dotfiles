@@ -56,6 +56,8 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"flex",
+		"bison",
 		"dfu-util",
 		"stlink",
 		"mynewt-newt",
