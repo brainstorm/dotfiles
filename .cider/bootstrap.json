@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"microsoft-edge-beta",
 		"db-browser-for-sqlite",
 		"squashfs",
 		"segger-jlink",
@@ -17,7 +18,7 @@
 		"postman",
 		"metasploit",
 		"burp-suite",
-		"yujitach-menumeters",
+		"menumeters",
 		"google-cloud-sdk",
 		"balenaetcher",
 		"handbrake",
