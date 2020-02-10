@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"riot",
 		"gitkraken",
 		"corretto",
 		"db-browser-for-sqlite",
@@ -26,6 +27,7 @@
 		"google-chrome",
 		"iterm2",
 		"visual-studio-code-insiders",
+		"intellij-idea-ce",
 		"transmission",
 		"slack",
 		"telegram",
@@ -58,6 +60,7 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"fabianishere/personal/pam_reattach",
 		"jsawk",
 		"travis",
 		"curl",
@@ -123,8 +126,7 @@
 		"mysql",
 		"rclone",
 		"filosottile/musl-cross/musl-cross",
-		"balena-cli",
-		"riot"
+		"balena-cli"
 	],
 	"symlinks": {
 		"bash/.*": "~",
