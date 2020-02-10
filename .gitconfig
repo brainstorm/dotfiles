@@ -1,7 +1,7 @@
 [user]
 name = Roman Valls Guimera 
 email = brainstorm@nopcode.org
-signingkey = F12FE607E080588AF5CED8F112A5388F08F80CB5
+#signingkey = F12FE607E080588AF5CED8F112A5388F08F80CB5
 [github]
 user = brainstorm
 [core]
@@ -20,7 +20,7 @@ sta = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
 stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
 [diff]
 	submodule = log
-[commit]
-	gpgsign = true
-[gpg]
-	program = gpg
+#[commit]
+#	gpgsign = true
+#[gpg]
+#	program = gpg

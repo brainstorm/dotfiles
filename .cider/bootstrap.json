@@ -57,6 +57,7 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"jsawk",
 		"travis",
 		"curl",
 		"flex",
@@ -67,7 +68,6 @@
 		"arm-none-eabi-gcc",
 		"rustup-init",
 		"saw",
-		"openapi-generator",
 		"r",
 		"pv",
 		"mas",
@@ -142,8 +142,7 @@
 		"vim/.*": "~"
 	},
 	"taps": {
-		"homebrew-cask-drivers",
-		"TylerBrock",
-		"ArmMbed/homebrew-formulae"
+		"MyNewt": "JuulLabs-OSS/homebrew-mynewt",
+		"ArmMbed": "ArmMbed/homebrew-formulae" 
 	}
 }
