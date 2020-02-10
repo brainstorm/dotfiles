@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"gitkraken",
 		"corretto",
 		"db-browser-for-sqlite",
 		"squashfs",
@@ -115,7 +116,6 @@
 		"MisterTea/et/et",
 		"git",
 		"git-lfs",
-		"gitkraken",
 		"parquet-tools",
 		"graphviz",
 		"htop",
