@@ -3,7 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
-		"microsoft-edge-beta",
+		"corretto",
 		"db-browser-for-sqlite",
 		"squashfs",
 		"segger-jlink",
@@ -57,6 +57,8 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"travis",
+		"curl",
 		"flex",
 		"bison",
 		"dfu-util",
@@ -138,7 +140,7 @@
 		"git/.*": "~",
 		"sh/.*": "~",
 		"vim/.*": "~"
-	}
+	},
 	"taps": {
 		"homebrew-cask-drivers",
 		"TylerBrock",
