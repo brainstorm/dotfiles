@@ -68,7 +68,6 @@
 		"mynewt-newt",
 		"arm-none-eabi-gcc",
 		"rustup-init",
-		"saw",
 		"r",
 		"pv",
 		"mas",
@@ -133,7 +132,7 @@
 		"vim/.*": "~"
 	},
 	"taps": {
-		"MyNewt": "JuulLabs-OSS/homebrew-mynewt",
-		"ArmMbed": "ArmMbed/homebrew-formulae" 
+		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
+		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae" 
 	}
 }
