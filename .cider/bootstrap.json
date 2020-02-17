@@ -7,13 +7,11 @@
 		"gitkraken",
 		"corretto",
 		"db-browser-for-sqlite",
-		"squashfs",
-		"segger-jlink",
+		"homebrew/cask-drivers/segger-jlink",
 		"nordic-nrf-connect",
 		"nordic-nrf-command-line-tools",
 		"coolterm",
 		"miniconda",
-		"jadx",
 		"skitch",
 		"postman",
 		"burp-suite",
@@ -42,19 +40,17 @@
 		"virtualbox",
 		"vagrant",
 		"kicad",
-		"aliwangwang",
-		"freecad",
 		"arduino",
 		"bankid",
-		"xquartz",
 		"inkscape",
 		"signal",
 		"gimp",
-		"vault",
-		"sshuttle",
 		"blender"
 	],
 	"formulas": [
+		"sshuttle",
+		"jadx",
+		"squashfs",
 		"duply",
 		"goreleaser",
 		"fabianishere/personal/pam_reattach",
@@ -133,6 +129,6 @@
 	},
 	"taps": {
 		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
-		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae" 
+		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae"
 	}
 }
