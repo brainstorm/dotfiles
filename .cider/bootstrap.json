@@ -48,6 +48,7 @@
 		"blender"
 	],
 	"formulas": [
+		"pinentry-mac",
 		"sshuttle",
 		"jadx",
 		"squashfs",
