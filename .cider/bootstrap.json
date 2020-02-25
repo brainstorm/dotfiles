@@ -57,6 +57,7 @@
 		"sshuttle"
 	],
 	"formulas": [
+		"xz",
 		"travis",
 		"curl",
 		"flex",
