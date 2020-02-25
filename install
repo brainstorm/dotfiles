@@ -11,8 +11,13 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${BASEDIR}"
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
-"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+# Assumes XCode or devtools are installed at this point
+sudo xcodebuild -license accept
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install wget
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh && sh Miniconda3-*.sh
-pip install -U cider
+
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+. ~/.bash_profile && pip install -U cider
 cider restore
 source .osx
