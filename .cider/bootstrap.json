@@ -49,6 +49,7 @@
 		"blender"
 	],
 	"formulas": [
+		"xz",
 		"pinentry-mac",
 		"sshuttle",
 		"jadx",
@@ -91,6 +92,8 @@
 		"help2man",
 		"node",
 		"pigz",
+		"bzip2",
+		"lbzip2",
 		"pbzip2",
 		"ack",
 		"parallel",
