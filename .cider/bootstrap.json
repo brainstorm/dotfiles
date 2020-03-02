@@ -3,6 +3,7 @@
 		"brew linkapps"
 	],
 	"casks": [
+		"igv",
 		"riot",
 		"gitkraken",
 		"corretto",
@@ -77,6 +78,7 @@
 		"bettercap",
 		"jq",
 		"awscli",
+		"session-manager-plugin",
 		"pandoc",
 		"pandoc-citeproc",
 		"bash-completion",
