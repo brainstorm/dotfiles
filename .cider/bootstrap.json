@@ -97,6 +97,7 @@
 		"lbzip2",
 		"pbzip2",
 		"ack",
+		"cw",
 		"parallel",
 		"macvim",
 		"nmap",
@@ -136,6 +137,7 @@
 	},
 	"taps": {
 		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
-		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae"
+		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae",
+		"lucagrulla/tap": "lucagrulla/tap"
 	}
 }
