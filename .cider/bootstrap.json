@@ -25,6 +25,7 @@
 		"homebrew/cask-versions/vlc-nightly",
 		"homebrew/cask-versions/visual-studio-code-insiders",
 		"intellij-idea-ce",
+		"homebrew/cask-fonts/font-jetbrains-mono",
 		"slack",
 		"telegram",
 		"adium",
@@ -51,6 +52,7 @@
 	"formulas": [
 		"xz",
 		"pinentry-mac",
+		"koekeishiya/formulae/yabai",
 		"sshuttle",
 		"jadx",
 		"squashfs",
@@ -118,6 +120,7 @@
 		"MisterTea/et/et",
 		"git",
 		"git-lfs",
+		"github/gh/gh",
 		"parquet-tools",
 		"graphviz",
 		"htop",
