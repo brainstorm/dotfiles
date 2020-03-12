@@ -5,6 +5,7 @@
 	"casks": [
 		"igv",
 		"riot",
+		"session-manager-plugin",
 		"gitkraken",
 		"corretto",
 		"db-browser-for-sqlite",
@@ -82,7 +83,6 @@
 		"bettercap",
 		"jq",
 		"awscli",
-		"session-manager-plugin",
 		"pandoc",
 		"pandoc-citeproc",
 		"bash-completion",
