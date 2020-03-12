@@ -115,8 +115,6 @@
 		"hashcat",
 		"coreutils",
 		"dockutil",
-		"kubectl",
-		"kops",
 		"amazon-ecs-cli",
 		"MisterTea/et/et",
 		"git",
