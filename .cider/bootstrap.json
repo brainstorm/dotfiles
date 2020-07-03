@@ -148,7 +148,6 @@
 		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
 		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae",
 		"lucagrulla/tap": "lucagrulla/tap",
-		"aws/tap": "aws/tap",
-		"tgtakaoka/mspgcc": "tgtakaoka/mspgcc"
+		"aws/tap": "aws/tap"
 	}
 }
