@@ -30,9 +30,11 @@
 		"ngspice",
 		"libngspice",
 		"intellij-idea-ce",
+		"transmission",
 		"homebrew/cask-fonts/font-jetbrains-mono",
 		"slack",
 		"telegram",
+		"discord",
 		"adium",
 		"skype",
 		"the-unarchiver",
@@ -47,12 +49,13 @@
 		"virtualbox",
 		"vagrant",
 		"kicad",
-		"arduino",
+		"arduino-nightly",
 		"bankid",
 		"inkscape",
 		"signal",
 		"gimp",
-		"blender"
+		"blender",
+		"openscad"
 	],
 	"formulas": [
 		"xz",
@@ -87,6 +90,7 @@
 		"bettercap",
 		"jq",
 		"awscli",
+		"aws-sam-cli",
 		"pandoc",
 		"pandoc-citeproc",
 		"bash-completion",
@@ -143,6 +147,8 @@
 	"taps": {
 		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
 		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae",
-		"lucagrulla/tap": "lucagrulla/tap"
+		"lucagrulla/tap": "lucagrulla/tap",
+		"aws/tap": "aws/tap",
+		"tgtakaoka/mspgcc": "tgtakaoka/mspgcc"
 	}
 }
