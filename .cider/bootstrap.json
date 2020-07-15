@@ -4,6 +4,7 @@
 	],
 	"casks": [
 		"igv",
+		"secretive",
 		"riot",
 		"session-manager-plugin",
 		"gitkraken",

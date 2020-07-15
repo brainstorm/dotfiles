@@ -1,7 +1,0 @@
-# Quickstart
-
-```
-./install
-```
-
-:flames:
