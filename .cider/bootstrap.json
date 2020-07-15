@@ -4,6 +4,8 @@
 	],
 	"casks": [
 		"igv",
+		"obs",
+		"obs-virtualcam",
 		"secretive",
 		"riot",
 		"session-manager-plugin",
