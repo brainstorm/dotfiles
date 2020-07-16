@@ -61,6 +61,7 @@
 		"openscad"
 	],
 	"formulas": [
+		"lsusb",
 		"xz",
 		"pinentry-mac",
 		"koekeishiya/formulae/yabai",
