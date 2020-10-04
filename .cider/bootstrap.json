@@ -13,8 +13,10 @@
 		"corretto",
 		"db-browser-for-sqlite",
 		"homebrew/cask-drivers/segger-jlink",
+		"monitorcontrol",
 		"nordic-nrf-connect",
 		"nordic-nrf-command-line-tools",
+		"dotnet-sdk",
 		"coolterm",
 		"miniconda",
 		"skitch",
@@ -25,6 +27,7 @@
 		"balenaetcher",
 		"handbrake",
 		"google-chrome",
+		"chromedriver",
 		"iterm2",
 		"homebrew/cask-versions/vlc-nightly",
 		"visual-studio-code-insiders",
@@ -126,6 +129,9 @@
 		"gnu-sed",
 		"libelf",
 		"hashcat",
+		"icestorm",
+		"yosys",
+		"nextpnr-ice40",
 		"coreutils",
 		"dockutil",
 		"MisterTea/et/et",
@@ -152,6 +158,7 @@
 		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
 		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae",
 		"lucagrulla/tap": "lucagrulla/tap",
-		"aws/tap": "aws/tap"
+		"aws/tap": "aws/tap",
+		"ktemkin/oss-fpga": "ktemkin/oss-fpga"
 	}
 }
