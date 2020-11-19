@@ -61,6 +61,7 @@
 		"openscad"
 	],
 	"formulas": [
+		"rpm2cpio",
 		"xz",
 		"pinentry-mac",
 		"koekeishiya/formulae/yabai",
@@ -151,6 +152,7 @@
 		"JuulLabs-OSS/homebrew-mynewt": "JuulLabs-OSS/homebrew-mynewt",
 		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae",
 		"lucagrulla/tap": "lucagrulla/tap",
-		"aws/tap": "aws/tap"
+		"aws/tap": "aws/tap",
+		"aws/tap/copilot-cli": "aws/tap/copilot-cli"
 	}
 }
