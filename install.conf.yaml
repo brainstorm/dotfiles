@@ -4,7 +4,6 @@
     ~/.gitignore_global: .gitignore_global
     ~/.gitconfig: .gitconfig
     ~/.tmux.conf: .tmux.conf
-    ~/.cider: .cider
     ~/.jupyter:
       force: true
       path: .jupyter
