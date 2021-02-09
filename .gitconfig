@@ -24,3 +24,5 @@ stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
 #	gpgsign = true
 #[gpg]
 #	program = gpg
+[rerere]
+	enabled = 1
