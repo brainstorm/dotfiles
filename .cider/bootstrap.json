@@ -64,6 +64,7 @@
 		"openscad"
 	],
 	"formulas": [
+		"rpm2cpio",
 		"lsusb",
 		"xz",
 		"pinentry-mac",
@@ -161,6 +162,7 @@
 		"ArmMbed/homebrew-formulae": "ArmMbed/homebrew-formulae",
 		"lucagrulla/tap": "lucagrulla/tap",
 		"aws/tap": "aws/tap",
+		"aws/tap/copilot-cli": "aws/tap/copilot-cli",
 		"ktemkin/oss-fpga": "ktemkin/oss-fpga"
 	}
 }
