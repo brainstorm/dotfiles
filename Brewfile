@@ -106,6 +106,7 @@ brew "ssh-copy-id", link: true
 brew "sshuttle"
 brew "stlink"
 brew "swig"
+brew "netcat"
 brew "telnet"
 brew "terraform", args: ["build-from-source"]
 brew "tmux"
