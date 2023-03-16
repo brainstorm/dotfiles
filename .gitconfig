@@ -1,23 +1,32 @@
 [user]
-name = Roman Valls Guimera 
-email = brainstorm@nopcode.org
+	name = Roman Valls Guimera
+	email = brainstorm@users.noreply.github.com
 #signingkey = F12FE607E080588AF5CED8F112A5388F08F80CB5
 [github]
-user = brainstorm
+	user = brainstorm
 [core]
-editor = vim
+	editor = vi
 [color]
-ui = auto
+	ui = auto
 [filter "lfs"]
-required = true
-clean = git-lfs clean -- %f
-smudge = git-lfs smudge -- %f
-process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 [alias]
-# the acronym stands for "subtree add"
-sta = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
-# the acronym stands for "subtree update"
-stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
+	caa = commit -a --amend
+	co = checkout
+	dom = diff origin/main
+	fom = fetch origin main
+	lg = log --name-status
+	mg = merge --no-commit --no-ff
+	rb = rebase -i --preserve-merges
+	rbm = rebase -i origin/main
+	rstm = reset --hard origin/main
+	rc = rebase --continue
+	pf = push --force -u
+	sta = "!f() { git subtree add --prefix $2 $1 master --squash; }; f"
+	stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
 [diff]
 	submodule = log
 #[commit]
@@ -26,3 +35,20 @@ stu = "!f() { git subtree pull --prefix $2 $1 master --squash; }; f"
 #	program = gpg
 [rerere]
 	enabled = 1
+[pull]
+	rebase = false
+[init]
+	defaultBranch = master
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status -sb
+        last = log -1 HEAD
+        cm = commit -m
+        po = push origin
+        pof = push --force-with-lease origin
+
+[filesystem "Azul Systems, Inc.|11.0.14.1|/dev/disk3s1"]
+	timestampResolution = 6000 nanoseconds
+	minRacyThreshold = 0 nanoseconds
