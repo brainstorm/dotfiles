@@ -48,7 +48,3 @@
         cm = commit -m
         po = push origin
         pof = push --force-with-lease origin
-
-[filesystem "Azul Systems, Inc.|11.0.14.1|/dev/disk3s1"]
-	timestampResolution = 6000 nanoseconds
-	minRacyThreshold = 0 nanoseconds
