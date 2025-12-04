@@ -303,10 +303,18 @@ brew "wdiff"
 brew "weasyprint"
 brew "webpack"
 brew "wget"
+<<<<<<< Updated upstream
 brew "wimlib"
 brew "wireguard-tools"
 brew "xsv"
 brew "yaml-cpp"
+=======
+brew "wireshark"
+brew "sniffnet"
+brew "wireshark-chmodbpf"
+brew "tailscale"
+brew "heroku/brew/heroku"
+>>>>>>> Stashed changes
 brew "yosys", args: ["HEAD"]
 brew "yq"
 brew "yt-dlp"
